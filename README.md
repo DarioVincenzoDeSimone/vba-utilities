@@ -86,8 +86,6 @@ The number of the column.
 
 
 
-
-
 ## getList
 
 Use this function to get the array of a column with a where condition.
@@ -106,3 +104,44 @@ Use this function to get the array of a column with a where condition.
 Array filtered on WHERE condition.
 
 
+
+## WorksheetExists
+
+Check if worksheet exist.
+
+#### Input fields
+
+`shtName` name of sheet you want to check.
+
+`[wb]` name of workbook where sheet is.
+
+#### Output
+True if sheet exist.
+
+
+## colExists
+
+Check if col exist.
+
+#### Input fields
+
+`sheet` name of sheet where is the col.
+
+`colName` name of column.
+
+`headerRow` number of row where header is.
+
+#### Output
+True if sheet exist.
+
+
+## CreateSheet
+
+Use this macro to create a sheet.
+
+#### Input fields
+
+`name` name of sheet to create.
+
+#### Output
+Void.
